@@ -13,10 +13,11 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails'
-  gem 'simplecov'
+  gem 'simplecov', :require => false
 end
 
 group :test do
+  gem 'ZenTest'
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
 end
